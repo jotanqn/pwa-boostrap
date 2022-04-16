@@ -9,7 +9,7 @@
     font-family: fantasy;
     font-size: 16px;
     text-align: center;
-    link
+    
 }
 
 #pie {
@@ -17,16 +17,21 @@
 }
 
 
-a {
-    color:rgb(254, 1, 1);
+a:link{
+    color:rgb(238, 121, 121);
     text-decoration: none;
     font-size: larger;
+}
+a:active{
+    color:red;
 }
 
 a:visited {
     color: rgb(240, 108, 130);
 }
-
+a:focus {
+    color: rgb(255, 0, 43);
+}
 #nav-tabContent{
     text-align: center;
     
