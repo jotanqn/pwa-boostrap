@@ -1,15 +1,33 @@
 #menu{
-   background-color: red;
+   background-color: rgb(255, 61, 61);
     
 }
-#marca{
+#marca {
     
     text-decoration-color: red;
     font-weight: 200;
     font-family: fantasy;
-    font-size: larger;
+    font-size: 16px;
     text-align: center;
+    link
+}
+
+#pie {
+    background-color: rgb(255, 61, 61);
 }
 
 
+a {
+    color:rgb(254, 1, 1);
+    text-decoration: none;
+    font-size: larger;
+}
 
+a:visited {
+    color: rgb(240, 108, 130);
+}
+
+#nav-tabContent{
+    text-align: center;
+    
+}
